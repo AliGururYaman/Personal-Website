@@ -75,26 +75,26 @@ fetch("https://api.github.com/users/AliGururYaman/repos").then(
     let addProje1 = document.querySelector("#addProje1")
     addProje1.innerHTML = reposJson[0].name
     let addDesc1 = document.querySelector("#addDesc1")
-    addDesc1.innerHTML = `Bu Proğram ${reposJson[0].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[0].html_url}"target="_blank">tıklayın<a>`
+    addDesc1.innerHTML = `Bu Program ${reposJson[0].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[0].html_url}"target="_blank">tıklayın<a>`
     let addProje2 = document.querySelector("#addProje2")
     addProje2.innerHTML = reposJson[1].name
     let addDesc2 = document.querySelector("#addDesc2")
-    addDesc2.innerHTML = `Bu Proğram ${reposJson[1].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[1].html_url}"target="_blank">tıklayın<a>`
+    addDesc2.innerHTML = `Bu Program ${reposJson[1].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[1].html_url}"target="_blank">tıklayın<a>`
     let addProje3 = document.querySelector("#addProje3")
     addProje3.innerHTML = reposJson[2].name
     let addDesc3 = document.querySelector("#addDesc3")
-    addDesc3.innerHTML = `Bu Proğram ${reposJson[2].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[2].html_url}"target="_blank">tıklayın<a>`
+    addDesc3.innerHTML = `Bu Program ${reposJson[2].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[2].html_url}"target="_blank">tıklayın<a>`
     let addProje4 = document.querySelector("#addProje4")
     addProje4.innerHTML = reposJson[3].name
     let addDesc4 = document.querySelector("#addDesc4")
-    addDesc4.innerHTML = `Bu Proğram ${reposJson[3].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[3].html_url}"target="_blank">tıklayın<a>`
+    addDesc4.innerHTML = `Bu Program ${reposJson[3].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[3].html_url}"target="_blank">tıklayın<a>`
     let addProje5 = document.querySelector("#addProje5")
     addProje5.innerHTML = reposJson[4].name
     let addDesc5 = document.querySelector("#addDesc5")
-    addDesc5.innerHTML = `Bu Proğram ${reposJson[4].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[4].html_url}"target="_blank">tıklayın<a>`
+    addDesc5.innerHTML = `Bu Program ${reposJson[4].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[4].html_url}"target="_blank">tıklayın<a>`
     let addProje6 = document.querySelector("#addProje6")
     addProje6.innerHTML = reposJson[5].name
     let addDesc6 = document.querySelector("#addDesc6")
-    addDesc6.innerHTML = `Bu Proğram ${reposJson[5].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[5].html_url}"target="_blank">tıklayın<a>`
+    addDesc6.innerHTML = `Bu Program ${reposJson[5].language} dili ile yazıldı. Repoya ulaşmak için <a href="${reposJson[5].html_url}"target="_blank">tıklayın<a>`
 })
 
